@@ -5,15 +5,15 @@ import org.seckill.entity.SuccessKilled;
 public interface SuccessKilledDao {
 
 	/**
-	 * ²åÈë¹ºÂòÃ÷Ï¸£¬¿É¹ıÂËÖØ¸´
+	 * æ’å…¥è´­ä¹°æ˜ç»†ï¼Œå¯è¿‡æ»¤é‡å¤
 	 * @param seckillId
 	 * @param userPhone
-	 * @return ²åÈëµÄĞĞÊı£¬=1±íÊ¾²åÈë³É¹¦£¬=0±íÊ¾²åÈëÊ§°Ü
+	 * @return æ’å…¥çš„è¡Œæ•°ï¼Œ=1è¡¨ç¤ºæ’å…¥æˆåŠŸï¼Œ=0è¡¨ç¤ºæ’å…¥å¤±è´¥
 	 */
 	int insertSuccessKilled(long seckillId, long userPhone);
 
 	/**
-	 * Í¨¹ıÃëÉ±id²éÑ¯SuccessKilled²¢Ğ¯´øÃëÉ±²úÆ·ÊµÌå
+	 * é€šè¿‡ç§’æ€idæŸ¥è¯¢SuccessKilledå¹¶æºå¸¦ç§’æ€äº§å“å®ä½“
 	 * @param seckillId
 	 * @return
 	 */

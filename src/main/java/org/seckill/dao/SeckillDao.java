@@ -8,15 +8,15 @@ import java.util.List;
 public interface SeckillDao {
 
 	/**
-	 * ¼õ¿â´æµÄ½Ó¿Ú
+	 * å‡åº“å­˜çš„æ¥å£
 	 * @param seckillId
 	 * @param killTime
-	 * @return Èç¹ûÓ°ÏìĞĞÊı=1 ,±íÊ¾¸üĞÂµÄĞĞÊıÎª1ĞĞ,sqlÔËĞĞ³É¹¦£»·ñÔòÔËĞĞÊ§°Ü
+	 * @return å¦‚æœå½±å“è¡Œæ•°=1 ,è¡¨ç¤ºæ›´æ–°çš„è¡Œæ•°ä¸º1è¡Œ,sqlè¿è¡ŒæˆåŠŸï¼›å¦åˆ™è¿è¡Œå¤±è´¥
 	 */
 	int reduceNumber(long seckillId,Date killTime);
 
 	/**
-	 * Í¨¹ıÃëÉ±ÉÌÆ·id²éÑ¯ÃëÉ±ÉÌÆ·¶ÔÏó
+	 * é€šè¿‡ç§’æ€å•†å“idæŸ¥è¯¢ç§’æ€å•†å“å¯¹è±¡
 	 * @param seckillId
 	 * @return
 	 */
@@ -24,7 +24,7 @@ public interface SeckillDao {
 
 
 	/**
-	 * ¸ù¾İÆ«ÒÆÁ¿²éÑ¯ÃëÉ±ÉÌÆ·ÁĞ±í
+	 * æ ¹æ®åç§»é‡æŸ¥è¯¢ç§’æ€å•†å“åˆ—è¡¨
 	 * @param offset
 	 * @param limit
 	 * @return

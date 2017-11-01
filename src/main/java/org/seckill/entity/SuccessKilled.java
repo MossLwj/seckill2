@@ -12,8 +12,8 @@ public class SuccessKilled {
 
 	private Date createTime;
 
-	//±äÍ¨
-	// ¶à¶ÔÒ»£ºÒ»¸öÃëÉ±µÄÉÌÆ·¶ÔÓ¦¶à¸öÃëÉ±¼ÇÂ¼¡£
+	//å˜é€š
+	// å¤šå¯¹ä¸€ï¼šä¸€ä¸ªç§’æ€çš„å•†å“å¯¹åº”å¤šä¸ªç§’æ€è®°å½•ã€‚
 	private Seckill seckill;
 
 	public long getSeckillId() {
